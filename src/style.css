@@ -1,1 +1,70 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+.maze {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.card-one__value1,
+.card-two__value1,
+.card-three__value1,
+.card-four__value1,
+.card-five__value1,
+.card-one__value2,
+.card-two__value2,
+.card-three__value2,
+.card-four__value2,
+.card-five__value2 {
+  font-size: 2rem;
+  height: 40px;
+  width: 130px;
+  padding-top: 8px;
+}
+
+.card-one__value1,
+.card-two__value1,
+.card-three__value1,
+.card-four__value1,
+.card-five__value1 {
+  display: flex;
+  justify-content: start;
+  align-items: left;
+  padding-left: 12px;
+}
+
+.card-one__value2,
+.card-two__value2,
+.card-three__value2,
+.card-four__value2,
+.card-five__value2 {
+  font-size: 2rem;
+  display: flex;
+  justify-content: start;
+  padding-right: 5px;
+  transform: rotate(180deg);
+}
+
+.card-one__symbol,
+.card-two__symbol,
+.card-three__symbol,
+.card-four__symbol,
+.card-five__symbol {
+  text-align: center;
+  font-size: 4rem;
+  height: 105px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  height: 200px;
+  width: 150px;
+  border: 1px solid silver;
+  border-radius: 7px;
+  box-shadow: 10px 5px 5px black;
+}
+
+.btn {
+  font-size: 4rem;
+}

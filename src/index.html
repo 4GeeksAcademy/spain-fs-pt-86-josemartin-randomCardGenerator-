@@ -1,29 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
-    <link rel="shortcut icon" href="./4geeks.ico" />
+    <link rel="stylesheet" src="style.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Random Card Generator</title>
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <button onclick="play();">PLay Game</button>
+    <input type="button" value="Play game" onclick="play();" />
+    <div class="maze">
+      <div id="card-one" class="card">
+        <span class="card-one__value1"></span>
+        <span class="card-one__symbol"></span>
+        <span class="card-one__value2"></span>
+      </div>
+      <div id="card-two" class="card">
+        <span class="card-two__value1"></span>
+        <span class="card-two__symbol"></span>
+        <span class="card-two__value2"></span>
+      </div>
+      <div id="card-three" class="card">
+        <span class="card-three__value1"></span>
+        <span class="card-three__symbol"></span>
+        <span class="card-three__value2"></span>
+      </div>
+      <div id="card-four" class="card">
+        <span class="card-four__value1"></span>
+        <span class="card-four__symbol"></span>
+        <span class="card-four__value2"></span>
+      </div>
+      <div id="card-five" class="card">
+        <span class="card-five__value1"></span>
+        <span class="card-five__symbol"></span>
+        <span class="card-five__value2"></span>
       </div>
     </div>
+    <script src="app.js"></script>
   </body>
 </html>
